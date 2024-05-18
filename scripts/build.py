@@ -14,6 +14,6 @@ target_file = source_file.split(".")[0] + (
     "" if target_file_extension is None else target_file_extension
 )
 
-command = f"g++ -o {target_file} {source_file}"
+command = f"g++ -Wall -std=c++17 -o {target_file} {source_file}"
 
 os.system(command)

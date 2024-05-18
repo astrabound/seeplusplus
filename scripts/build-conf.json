@@ -1,5 +1,6 @@
 {
   "output_extension": ".out",
   "same_name": true,
-  "same_dir": true
+  "same_dir": true,
+  "cpp_std": 17
 }
